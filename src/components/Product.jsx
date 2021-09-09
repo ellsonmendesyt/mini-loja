@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const Product = ({item}) => {
     return (
         <Container>
+            
           <Circle/>
            <Image src={item.img} /> 
            <Info>
